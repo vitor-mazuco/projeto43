@@ -129,11 +129,11 @@ class Game {
             //player.rank += 1;
            // player.updateanimalsAtEnd(player.rank);
 
-            rank += 1;
-            Player.updateanimalsAtEnd(rank);
+           // rank += 1;
+            //Player.updateanimalsAtEnd(rank);
 
-          //  player.rank += 1;
-          //  Player.updateanimalsAtEnd(player.rank);
+            player.rank += 1;
+            Player.updateanimalsAtEnd(player.rank);
 
 
            player.update();
